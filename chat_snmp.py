@@ -131,20 +131,12 @@ def snmp_values():
                     else:
          	     b=l[i]
                      a= a + b
-           if av == "q":
-              print " "
-              print "My_friend abandono la sesion"
-           else:
-              print " "
-              print "My_friend:" +  av
-
+         if d == "q":
+            print " "
+            print "My_friend abandono la sesion"
          else:
-            if d == "q":
-              print " "
-              print "My_friend abandono la sesion"
-            else:
-              print " "
-              print "My_friend:" +  d
+          print " "
+          print "My_friend:" +  d
 
 
         else:
